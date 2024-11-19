@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test 1</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <div class="logo-container">
+    <div class="logo-background"></div>
+    <img src="logo.webp" alt="Logo firmy">
+  </div>
+
+  <h2>Nazwa testu</h2>
+
+  <div class="quiz-content">
+    <div class="question-box">
+      <div class="question">
+        <p><strong>Pytanie 1:</strong> pytanie(odpowiedź C)</p>
+        <div class="answers">
+          <button onclick="checkAnswer(this, 'A', 'C')">A: asdasdasdsa</button>
+          <button onclick="checkAnswer(this, 'B', 'C')">B: Osdasdasdas</button>
+          <button onclick="checkAnswer(this, 'C', 'C')">C: asdasds</button>
+          <button onclick="checkAnswer(this, 'D', 'C')">D: dasdasdasdsd</button>
+        </div>
+        <p class="feedback" style="display: none;"></p>
+      </div>
+    </div>
+  
+    <div class="question-box">
+      <div class="question">
+        <p><strong>Pytanie 2:</strong> pytanie(odpowiedź A)</p>
+        <div class="answers">
+          <button onclick="checkAnswer(this, 'A', 'A')">A: asdasd</button>
+          <button onclick="checkAnswer(this, 'B', 'A')">B: asdasd</button>
+          <button onclick="checkAnswer(this, 'C', 'A')">C: asddasd asdasd</button>
+          <button onclick="checkAnswer(this, 'D', 'A')">D: asdasd</button>
+        </div>
+        <p class="feedback" style="display: none;"></p>
+      </div>
+    </div>
+  
+    <div class="question-box">
+      <div class="question">
+        <p><strong>Pytanie 3:</strong> pytanie(odpowiedź A)</p>
+        <div class="answers">
+          <button onclick="checkAnswer(this, 'A', 'A')">A: asdasd</button>
+          <button onclick="checkAnswer(this, 'B', 'A')">B: asdasdasd</button>
+          <button onclick="checkAnswer(this, 'C', 'A')">C: Liadasdasdt</button>
+          <button onclick="checkAnswer(this, 'D', 'A')">D: asdasdasd</button>
+        </div>
+        <p class="feedback" style="display: none;"></p>
+      </div>
+    </div>
+  
+    <div class="question-box">
+      <div class="question">
+        <p><strong>Pytanie 4:</strong> pytanie(odpowiedź C)</p>
+        <div class="answers">
+          <button onclick="checkAnswer(this, 'A', 'C')">A: asdasdasdsa</button>
+          <button onclick="checkAnswer(this, 'B', 'C')">B: sadasdasd</button>
+          <button onclick="checkAnswer(this, 'C', 'C')">C: Wsdasasdasddasdasdszaasdasda</button>
+          <button onclick="checkAnswer(this, 'D', 'C')">D: Wasdasdasdasdaw</button>
+        </div>
+        <p class="feedback" style="display: none;"></p>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>
