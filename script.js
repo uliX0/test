@@ -29,11 +29,9 @@ function loadTest(testFile) {
     if (chosen === correct) {
       feedback.textContent = "Gratulacje! To poprawna odpowiedź.";
       feedback.className = "feedback correct";
-      feedback.style.color = "green";
     } else {
       feedback.textContent = `Niestety, to nie jest poprawna odpowiedź. Poprawna odpowiedź to: ${correct}.`;
       feedback.className = "feedback incorrect";
-      feedback.style.color = "red";
     }
 
     feedback.style.display = 'block';
